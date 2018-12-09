@@ -1,9 +1,9 @@
 <?php
-	$servername = "127.0.0.1";
-	$username = "kristiinav";
+	$servername = "";
+	$username = "";
 	$password = "";
-	$dbname = "c9";
-	$tablename = "varauskalenteri";
+	$dbname = "";
+	$tablename = "";
 
 	
 	$months = array('Tammikuu', 'Helmikuu', 'Maaliskuu', 'Huhtikuu', 'Toukokuu', 'Kesäkuu', 'Heinäkuu', 'Elokuu', 'Syyskuu', 'Lokakuu', 'Marraskuu', 'Joulukuu');

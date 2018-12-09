@@ -1,0 +1,138 @@
+/*Navigaation muotoilua*/
+.tausta {
+    background-color: #000000;
+}
+
+
+
+.nav_tausta{
+    background-color: #000000;
+    width: 100%;
+    float: left;
+    
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.nav-link{
+    background-color: #000000;
+}
+
+
+.dropdown-menu{
+    border: none;
+    background-color: #000000;
+    min-width: 17rem; /*Tämä muuttaa navbaarin linkkien taustat isommaksi, jotta txt ei mene yli*/
+}
+
+.dropdown-item{
+    color: #ffffff;
+    
+}
+
+.dropdown-item:hover{
+    color: #ff80bf;
+    background-color: transparent;
+}
+
+.nav-link:hover{
+    color: #ff80bf;
+}
+
+.navbar-toggler{
+    border-color: #ff80bf;
+}
+
+/*Navigaation muotoilu päättyy*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1 {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+ .bgimg-2{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+ .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+/*.bgimg-3 {
+  background-image: url("../img/pedro.jpg");
+}*/
+
+.bgimg-1 {
+  background-image: url("../img/pawel.jpg");
+  min-height: 70%;
+}
+
+.bgimg-2 {
+  background-image: url("../img/virvokkeet.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption .border {
+  background-color: #000000;
+  color: #ff80bf;
+  font-size: 25px;
+  letter-spacing: 10px;
+  padding: 15px; /*Lisää teksilaatikoihin vähän tyhjää reunaa*/
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.col-md-4, .col { /*Tämä poistaa reunoilta tyhjät tilat, jotta sivu on kokonaan leveä*/
+    padding-left: 0;
+    padding-right:0;
+}
+  
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #ff80bf
+}
